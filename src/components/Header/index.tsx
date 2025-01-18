@@ -57,18 +57,20 @@ const Header = () => {
                 } `}
               >
                 <Image
-                  src="/images/logo/logo-2.svg"
+                  src="/images/logo/animated-logo-light.gif"
                   alt="logo"
                   width={140}
                   height={30}
                   className="w-full dark:hidden"
+                  unoptimized
                 />
                 <Image
-                  src="/images/logo/logo.svg"
+                  src="/images/logo/animated-logo-dark.gif"
                   alt="logo"
                   width={140}
                   height={30}
                   className="hidden w-full dark:block"
+                  unoptimized
                 />
               </Link>
             </div>
